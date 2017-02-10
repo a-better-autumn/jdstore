@@ -4,5 +4,5 @@ Rails.application.routes.draw do
   end
 
   devise_for :users
-  root 'admin/products#index'
+  root 'welcome#index'
 end
