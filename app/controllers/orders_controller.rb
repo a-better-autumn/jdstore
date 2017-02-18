@@ -15,7 +15,7 @@ class OrdersController < ApplicationController
         product_list.product_price = cart_item.product.price
         product_list.quantity = cart_item.quantity
         product_list.save
-    end
+      end
 
       redirect_to order_path(@order)
     else
